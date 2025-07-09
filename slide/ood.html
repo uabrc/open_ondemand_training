@@ -21,7 +21,8 @@
             <section>
                 <h3 style="color:green">Outline</h3>
                 <ul>
-                    <li>About Open OnDemand</li>
+                    <li>About Research Computing</li>
+                    <li>Introduction to Open OnDemand</li>
                     <li>Connecting/login to Open OnDemand</li>
                     <li>Open OnDemand Dashboard</li>
                     <li>Launching Interactive Applications:</li>
@@ -33,18 +34,31 @@
                     </ul>
                 </ul>
             </section>
-           
+            
+            <section>
+                <h3 style="color:green">UAB IT Research Computing</h3>
+                <ul>
+                 <li>Empowering research at UAB through offering </li> 
+                 <li> What we can offer you:</li>
+                   <ul style="font-size: 22px;">
+                    <li><b>High-Performance Computing (HPC) access</b>: Cheaha</li>
+                    <li><b>Expert Support</b>: from facilitators and operations professionals;</li>
+                    <li><b>Compute Resources</b>: including CPUs, GPUs, and related software tools;</li>
+                    </ul>
+                </ul>
+            </section>
+
             <section>
                 <h3 style="color:green">What is OOD?</h3>
                 <ul>
                     <li>OOD is a user-friendly web interface for managing and interacting with HPC resources.
                     </li>
-                    <li> Visit: <a href="https://rc.uab.edu/pun/sys/dashboard">https://rc.uab.edu/pun/sys/dashboard</a></li>
+                    <li> Visit: <a href="https://rc.uab.edu/">https://rc.uab.edu</a></li>
                     <li>Key Features</li>
                     <ul style="font-size: 22px;">
                         <li><b>Interactive Applications</b>: Run graphical applications and use computing resources through the browser.</li>
                         <li><b>Job Management</b>: Submit, monitor, and manage HPC jobs.</li>
-                        <li><b>File Management</b>: Access and manage files on remote systems.</li>
+                        <li><b>File Management</b>: Access and manage files on Cheaha.</li>
                     </ul>
                     <li>Why use Open OnDemand?</li>
                     <ul style="font-size: 22px;">
@@ -56,9 +70,17 @@
             </section>
     
             <section>
+                <h3 style="color:green">Creating a Cheaha Account?</h3>
+                <ul>
+                <li>To create a Cheaha account, complete this form.</li>
+                <img src="image/uab_account.png" width="auto" height="auto">
+               </ul>
+            </section>
+
+            <section>
                 <h3 style="color:green">Connect to Open OnDemand?</h3>
                 <ul>
-                    <li>To connect, visit <a href="https://rc.uab.edu/">https://rc.uab.edu/</a>, authenticate with Single Sign-On (SSO).
+                    <li>To connect, visit <a href="https://rc.uab.edu/">https://rc.uab.edu</a>, authenticate with Single Sign-On (SSO).
                     </li>
                 </ul>
                 <div class="r-stack">
@@ -70,14 +92,14 @@
             <section>
                 <h3 style="color:green">Open OnDemand Dashboard</h3>
                 <div class="r-stack" style="position: relative; height: 100px;">
-                    <p class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: left;"><b>Files</b>: allow one to view and operate on files available on the cheaha.</p>
-                    <p class="fragment fade-in-then-out" data-fragment-index="2" style="text-align: left;"><b>Jobs</b>: allow to create, edit, submit, and monitor jobs on cheaha cluster.</p>
+                    <p class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: left;"><b>Files</b>: browsing, and uploading/downloading small files. For Large files, use <a href="https://www.globus.org/">Globus</a>.</p>
+                    <!-- <p class="fragment fade-in-then-out" data-fragment-index="2" style="text-align: left;"><b>Jobs</b>: allow to monitor jobs on cheaha cluster.</p> -->
                     <p class="fragment fade-in-then-out" data-fragment-index="3" style="text-align: left;"><b>Clusters</b>: provides access to the shell on login nodes.</p>
                     <p class="fragment fade-in-then-out" data-fragment-index="4" style="text-align: left;"><b>Interactive Apps</b>: allow to explore interactive apps on Cheaha and lunch job using the preferred app.</p>
                 </div>
                 <div class="r-stack">
                     <img src="image/file.png" width="auto" height="auto" class="fragment" data-fragment-index="1">
-                    <img src="image/job.png" width="auto" height="auto" class="fragment" data-fragment-index="2">
+                    <!-- <img src="image/job.png" width="auto" height="auto" class="fragment" data-fragment-index="2"> -->
                     <img src="image/cluster.png" width="auto" height="auto" class="fragment" data-fragment-index="3" >
                     <img src="image/interactive-apps.png" width="auto" height="auto" class="fragment" data-fragment-index="4">
                 </div>
@@ -96,6 +118,8 @@
                     </ol>
                 </div>
             </section>
+
+            <section>Time for a live demo</section>
 
             <section>
                 <h4 style="color:green">Open OnDemand Dashboard: Interactive Apps</h4>
@@ -129,40 +153,68 @@
             </section>
 
             <section>
-                <h4 style="color:green">Launching Interactive Sessions: HPC Desktop</h4>
+                <h4 style="color:green">Creating an Interactive Job: HPC Desktop</h4>
                 <ul style="font-size: 26px;">
                     <li>Select an <b>HPC Desktop</b> interactive app, complete the form fields, and click the blue Launch button.</li>  
                     <img src="image/interactive-hpc-desktop-launch.png" width="auto" height="auto">
                 </ul>
             </section>
 
-             <section>
+            <section>
                 <h4 style="color:green" data-id="code-title">Launching Interactive Sessions: HPC Desktop</h4>
                 <ul>
                     <li>Interactive session will be initiated and passes through: Queued, Starting and Running</li>
                 <ul>
                 <div class="r-stack">
-                    <img src="image/queue.png" width="auto" height="auto" class="fragment" data-fragment-index="1">
-                    <img src="image/starting.png" width="auto" height="auto" class="fragment" data-fragment-index="2">
-                    <img src="image/running.png" width="auto" height="auto" class="fragment" data-fragment-index="3" >
+                    <img src="image/queue.png" width="auto" height="auto" class="fragment">
                 </div>  
                 <div class="r-stack" style="font-size: 26px; position: relative; height: 100px;">
-                    <p class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: left;"><b>Queued</b>: When the blue Launch button clicked the job state will change to Queued</p>
-                    <p class="fragment fade-in-then-out" data-fragment-index="2" style="text-align: left;"><b>Starting</b>: After the resources are allocated, the job state will change to Starting.</p>
-                    <p class="fragment fade-in-then-out" data-fragment-index="3" style="text-align: left;"><b>Running</b>: Once the job is launched on the compute nodes, the state will switch to Running.</p>
+                    <p class="fragment fade-in-then-out"  style="text-align: left;"><b>Queued</b>: When the blue Launch button clicked the job state will change to Queued</p>
                 </div>         
             </section>
 
             <section>
                 <h4 style="color:green" data-id="code-title">Launching Interactive Sessions: HPC Desktop</h4>
+                <ul>
+                    <li>Interactive session will be initiated and passes through: Queued, Starting and Running</li>
+                <ul>
                 <div class="r-stack">
-                      <img src="image/running.png" width="auto" height="auto" class="fragment" data-fragment-index="1" style="max-width: 100%; height: auto; width: 50%;" >
+                
+                    <img src="image/starting.png" width="auto" height="auto" class="fragment">
+                    
                 </div>  
                 <div class="r-stack" style="font-size: 26px; position: relative; height: 100px;">
-                    <p class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: left;"><b>Running</b>: Once the job is launched on the compute nodes, the state will switch to Running.</p>
+                     <p class="fragment fade-in-then-out" style="text-align: left;"><b>Starting</b>: After the resources are allocated, the job state will change to Starting.</p>
                 </div>         
             </section>
-        
+
+            <section>
+                <h4 style="color:green" data-id="code-title">Launching Interactive Sessions: HPC Desktop</h4>
+                <ul>
+                    <li>Interactive session will be initiated and passes through: Queued, Starting and Running</li>
+                <ul>
+                <div class="r-stack">
+                    <img src="image/running.png" width="auto" height="auto" class="fragment" data-fragment-index="3" >
+                </div>  
+                <div class="r-stack" style="font-size: 26px; position: relative; height: 100px;">
+                     <p class="fragment fade-in-then-out" style="text-align: left;"><b>Running</b>: Once the job is launched on the compute nodes, the state will switch to Running.</p>
+                </div>         
+            </section>
+
+            <section>
+                <h4 style="color:green" data-id="code-title">Launching Interactive Sessions: HPC Desktop</h4>
+              
+                <div class="r-stack" style="font-size: 26px; position: relative; height: 100px;">
+                    <p class="fragment fade-in-then-out" data-fragment-index="1" style="text-align: left;">Then to open the interactive VNC session in a new tab click on <b>Launch Desktop in new tab button</b>. </p>
+                    <p class="fragment fade-in-then-out" data-fragment-index="2" style="text-align: left;">You can also click the blue button in the <b>Host</b> field to open a terminal directly.</p>
+                </div>  
+                <div class="r-stack">
+                    <img src="image/running.png" width="auto" height="auto" class="fragment" data-fragment-index="1" style="max-width: 100%; height: auto; width: 50%;" >
+              </div>         
+            </section>
+             <section>
+               <p>Time for a live demo</p> 
+             </section>
         </div>
     </div>
 
